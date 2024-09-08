@@ -13,5 +13,11 @@ int main() {
     double countyTax = revenue * countyTaxRate; // Calculate county tax
     double totalTax = stateTax + countyTax;     // Total tax is the sum of state and county tax
 
+    // Display the results
+    cout << "The Total Revenue Of The Store Is: $" << revenue << endl;
+    cout << "The State Tax Is: $" << stateTax << endl;
+    cout << "The County Tax Is: $" << countyTax << endl;
+    cout << "The Total Tax You Have To Pay Is: $" << totalTax << endl;
+
     return 0;
 }
